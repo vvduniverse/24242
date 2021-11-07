@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0C2B17C2737FCEB003D07D1 /* _4242App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2B17B2737FCEB003D07D1 /* _4242App.swift */; };
+		A0C2B17C2737FCEB003D07D1 /* App4242App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2B17B2737FCEB003D07D1 /* App4242App.swift */; };
 		A0C2B17E2737FCEB003D07D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2B17D2737FCEB003D07D1 /* ContentView.swift */; };
 		A0C2B1802737FCED003D07D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C2B17F2737FCED003D07D1 /* Assets.xcassets */; };
 		A0C2B1832737FCED003D07D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C2B1822737FCED003D07D1 /* Preview Assets.xcassets */; };
+		A0C2B18A2738020C003D07D1 /* CoffeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2B1892738020C003D07D1 /* CoffeTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A0C2B1782737FCEB003D07D1 /* 24242.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 24242.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0C2B17B2737FCEB003D07D1 /* _4242App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4242App.swift; sourceTree = "<group>"; };
+		A0C2B1782737FCEB003D07D1 /* as24242.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = as24242.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C2B17B2737FCEB003D07D1 /* App4242App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App4242App.swift; sourceTree = "<group>"; };
 		A0C2B17D2737FCEB003D07D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A0C2B17F2737FCED003D07D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C2B1822737FCED003D07D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0C2B1892738020C003D07D1 /* CoffeTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 		A0C2B16F2737FCEB003D07D1 = {
 			isa = PBXGroup;
 			children = (
-				A0C2B17A2737FCEB003D07D1 /* 24242 */,
+				A0C2B17A2737FCEB003D07D1 /* as24242 */,
 				A0C2B1792737FCEB003D07D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +45,21 @@
 		A0C2B1792737FCEB003D07D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0C2B1782737FCEB003D07D1 /* 24242.app */,
+				A0C2B1782737FCEB003D07D1 /* as24242.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0C2B17A2737FCEB003D07D1 /* 24242 */ = {
+		A0C2B17A2737FCEB003D07D1 /* as24242 */ = {
 			isa = PBXGroup;
 			children = (
-				A0C2B17B2737FCEB003D07D1 /* _4242App.swift */,
+				A0C2B17B2737FCEB003D07D1 /* App4242App.swift */,
 				A0C2B17D2737FCEB003D07D1 /* ContentView.swift */,
+				A0C2B1892738020C003D07D1 /* CoffeTime.swift */,
 				A0C2B17F2737FCED003D07D1 /* Assets.xcassets */,
 				A0C2B1812737FCED003D07D1 /* Preview Content */,
 			);
-			path = 24242;
+			path = as24242;
 			sourceTree = "<group>";
 		};
 		A0C2B1812737FCED003D07D1 /* Preview Content */ = {
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0C2B1772737FCEB003D07D1 /* 24242 */ = {
+		A0C2B1772737FCEB003D07D1 /* as24242 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0C2B1862737FCED003D07D1 /* Build configuration list for PBXNativeTarget "24242" */;
+			buildConfigurationList = A0C2B1862737FCED003D07D1 /* Build configuration list for PBXNativeTarget "as24242" */;
 			buildPhases = (
 				A0C2B1742737FCEB003D07D1 /* Sources */,
 				A0C2B1752737FCEB003D07D1 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = 24242;
+			name = as24242;
 			productName = 24242;
-			productReference = A0C2B1782737FCEB003D07D1 /* 24242.app */;
+			productReference = A0C2B1782737FCEB003D07D1 /* as24242.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A0C2B1732737FCEB003D07D1 /* Build configuration list for PBXProject "24242" */;
+			buildConfigurationList = A0C2B1732737FCEB003D07D1 /* Build configuration list for PBXProject "as24242" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0C2B1772737FCEB003D07D1 /* 24242 */,
+				A0C2B1772737FCEB003D07D1 /* as24242 */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0C2B17E2737FCEB003D07D1 /* ContentView.swift in Sources */,
-				A0C2B17C2737FCEB003D07D1 /* _4242App.swift in Sources */,
+				A0C2B18A2738020C003D07D1 /* CoffeTime.swift in Sources */,
+				A0C2B17C2737FCEB003D07D1 /* App4242App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +285,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Vahtee-Boo.-4242";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vahtee-Boo.as4242";
+				PRODUCT_NAME = as24242;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,8 +313,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Vahtee-Boo.-4242";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vahtee-Boo.as4242";
+				PRODUCT_NAME = as24242;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0C2B1732737FCEB003D07D1 /* Build configuration list for PBXProject "24242" */ = {
+		A0C2B1732737FCEB003D07D1 /* Build configuration list for PBXProject "as24242" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0C2B1842737FCED003D07D1 /* Debug */,
@@ -329,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0C2B1862737FCED003D07D1 /* Build configuration list for PBXNativeTarget "24242" */ = {
+		A0C2B1862737FCED003D07D1 /* Build configuration list for PBXNativeTarget "as24242" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0C2B1872737FCED003D07D1 /* Debug */,
