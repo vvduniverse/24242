@@ -9,15 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     
-    //1. Создаём свойство, которое будет хранить количество чашек кофе, определяемое на следующем экране. И переходя в дальнейшем с экрана на экран, свойство не будет обнуляться, так как расположено в родительском View.
-    @State private var count = 0
+    //Используем объект через оболочку @EnvironmentObject созданный на верхушке дерева наших View
+    @EnvironmentObject var count: Count
     
     var body: some View {
-        //2. Создаём ссылку на следующий экран
-
-            NavigationView {
-                NavigationLink("Вход в кофейню. Чашек \(count)", destination: CoffeeTime(count: $count))
-            }
+        NavigationView {
+            NavigationLink("Вход в кофейню", destination: CoffeeTime())
+        }
     }
 }
 
@@ -26,5 +24,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-

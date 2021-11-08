@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A07F119127396AFC009FAD59 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F119027396AFC009FAD59 /* ThirdView.swift */; };
+		A07F119327396B18009FAD59 /* ForthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F119227396B18009FAD59 /* ForthView.swift */; };
 		A0C2B17C2737FCEB003D07D1 /* App4242App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2B17B2737FCEB003D07D1 /* App4242App.swift */; };
 		A0C2B17E2737FCEB003D07D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2B17D2737FCEB003D07D1 /* ContentView.swift */; };
 		A0C2B1802737FCED003D07D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C2B17F2737FCED003D07D1 /* Assets.xcassets */; };
 		A0C2B1832737FCED003D07D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C2B1822737FCED003D07D1 /* Preview Assets.xcassets */; };
 		A0C2B18A2738020C003D07D1 /* CoffeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2B1892738020C003D07D1 /* CoffeTime.swift */; };
+		A0C2B18C273803D4003D07D1 /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2B18B273803D4003D07D1 /* Count.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A07F119027396AFC009FAD59 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		A07F119227396B18009FAD59 /* ForthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthView.swift; sourceTree = "<group>"; };
 		A0C2B1782737FCEB003D07D1 /* as24242.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = as24242.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C2B17B2737FCEB003D07D1 /* App4242App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App4242App.swift; sourceTree = "<group>"; };
 		A0C2B17D2737FCEB003D07D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A0C2B17F2737FCED003D07D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C2B1822737FCED003D07D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0C2B1892738020C003D07D1 /* CoffeTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeTime.swift; sourceTree = "<group>"; };
+		A0C2B18B273803D4003D07D1 /* Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				A0C2B17B2737FCEB003D07D1 /* App4242App.swift */,
 				A0C2B17D2737FCEB003D07D1 /* ContentView.swift */,
 				A0C2B1892738020C003D07D1 /* CoffeTime.swift */,
+				A07F119027396AFC009FAD59 /* ThirdView.swift */,
+				A07F119227396B18009FAD59 /* ForthView.swift */,
+				A0C2B18B273803D4003D07D1 /* Count.swift */,
 				A0C2B17F2737FCED003D07D1 /* Assets.xcassets */,
 				A0C2B1812737FCED003D07D1 /* Preview Content */,
 			);
@@ -141,8 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0C2B17E2737FCEB003D07D1 /* ContentView.swift in Sources */,
+				A07F119127396AFC009FAD59 /* ThirdView.swift in Sources */,
+				A07F119327396B18009FAD59 /* ForthView.swift in Sources */,
 				A0C2B18A2738020C003D07D1 /* CoffeTime.swift in Sources */,
 				A0C2B17C2737FCEB003D07D1 /* App4242App.swift in Sources */,
+				A0C2B18C273803D4003D07D1 /* Count.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +284,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"24242/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"as24242/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,7 +312,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"24242/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"as24242/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
